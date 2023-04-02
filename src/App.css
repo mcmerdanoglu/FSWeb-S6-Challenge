@@ -1,8 +1,41 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 0 20%;
+  min-height: 100vh;
 }
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+.accordeon {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(65, 62, 62);
+  margin: 0.5rem auto;
+  /* justify-content: center; */
+  border-radius: 1rem;
+}
+.accordeon__title {
+  padding: 1rem 2rem;
+  font-weight: 900;
+  font-size: larger;
+}
+
+.accordeon__detail {
+  padding: 0.5rem 2rem 0.5rem;
+  background-color: rgba(177, 9, 9, 0.3);
+}
+
+.accordeon__detail p {
+  line-height: 1;
+}
+
+p {
+  font-size: 0.8rem;
+  font-weight: normal;
+}
